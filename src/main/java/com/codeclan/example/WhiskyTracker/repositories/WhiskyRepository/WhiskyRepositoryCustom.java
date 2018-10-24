@@ -8,4 +8,6 @@ public interface WhiskyRepositoryCustom {
     //TODO: put all the custom querys in here!
 
     List<Whisky>getAllWhiskyFromParticularYear(int year);
+
+//    List<Whisky>getAllWhiskyFromRegion(String region);
 }

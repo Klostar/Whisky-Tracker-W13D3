@@ -44,5 +44,12 @@ public class WhiskyRepositoryImpl implements WhiskyRepositoryCustom {
         return results;
     }
 
+//    @Transactional
+//    public  List<Whisky> getAllWhiskyFromRegion(String region){
+//        List <Whisky> results = null;
+//
+//        Session session = entityManager
+//
+//    }
 
 }
