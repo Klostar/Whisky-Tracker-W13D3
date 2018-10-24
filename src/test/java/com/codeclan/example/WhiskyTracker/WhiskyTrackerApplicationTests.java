@@ -42,4 +42,9 @@ public class WhiskyTrackerApplicationTests {
 	public void  getAllDistilleryFromRegion(){
 		List<Distillery> results = distilleryRepository.getAllDistilleryFromRegion("Highland");
 	}
+
+	@Test
+	public void getAllWhiskyByDistileryByAge(){
+		List<Whisky> results = whiskyRepository.getAllWhiskyByDistileryByAge(1L, 15);
+	}
 }
